@@ -7,11 +7,31 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Arrays</title>
   </head>
   <body>
-  <div class="container">
+    <div class="container">
+      <h1>Welcome to our park!</h1>
+      <form>
+        <label for="color">Please enter your favorite color:</label>
+        <input type="text" class="form-control" id="color">
 
-  </div>
+        <label for="food">Please enter your favorite food:</label>
+        <input type="text" class="form-control" id="food">
+
+        <label for="animal">Please enter your favorite animal:</label>
+        <input type="text" class="form-control" id="animal">
+        <div class="result">
+          <ul>
+            <li><span class="colorInput"></span> </li>
+            <li><span class="foodInput"></span></li>
+            <li><span class="animalInput"></span> </li>
+          </ul>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
   </body>
 </html>
